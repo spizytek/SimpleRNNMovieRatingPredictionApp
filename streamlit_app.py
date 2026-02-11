@@ -57,6 +57,3 @@ if st.button("Predict Sentiment"):
     else:
         sentiment, confidence = predict_sentiment(user_input)
         st.write(f"Predicted Sentiment: **{sentiment}** (Confidence: {confidence:.4f})")
-
-
-
