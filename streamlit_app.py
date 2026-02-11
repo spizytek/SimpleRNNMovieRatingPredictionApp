@@ -47,7 +47,7 @@ def predict_sentiment(review):
 
 
 # Step 4: Streamlit App
-st.title("IMDB Movie Review Sentiment Analysis")
+st.title("IMDB Movie Review Sentiment Analysis Using RNN models")
 st.write("Enter a movie review below to predict its sentiment (Positive/Negative).")    
 user_input = st.text_area("Movie Review", "Type your review here...")   
 
